@@ -1,0 +1,40 @@
+THIS DOCUMENT RELATED DOCUMENTATION FOR THE cv.htm TEMPLATE
+cv = {
+	html_title: title for the website 
+	template_section_title = datos personales
+
+	user_fullname: name and last name for the user displayed over the job_image
+
+	job_role: the job title in the cv, and is showed below of the job_image
+	job_location: the job location for the job
+	job_mail: email showed
+	job_number: phone number to show the cv
+	job_image: image showed in the profile
+
+	dependents_dict : a list of dicts with data for the economic dependents
+		{
+			dependent_name: name of person dependent
+			dependent_years: years ago of the dependent
+			dependent_relationship: relationship of the dependent
+		}
+	
+	languages:  a list of dicts with languages data
+		{
+			idiom: language like English
+			level: [0-100] level of English level
+		}
+
+	academics:  list of dicts with academics data
+		{
+			career:
+			grade: licenciatura / maestria / doctorado ..
+			school: universitie studied 
+			date_start:
+			date_end:
+			date_cedule: receive grade awards ( cedula professional
+			cedule: professional cedule
+		}
+
+
+}
+
